@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Screening</title>
+</head>
+<body>
+
+    <h2>Upload Resume</h2>
+
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label>Enter Job Role:</label><br>
+        <input type="text" name="job_role" required><br><br>
+
+        <label>Upload Resume:</label><br>
+        <input type="file" name="resume" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
